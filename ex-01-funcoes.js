@@ -322,7 +322,13 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta01 = false
+function saudacao() {
+ console.log("Bom dia!");
+ return saudacao;
+}
+
+saudacao()
+export const resposta01 = saudacao
 
 /* Questão 2
 Crie uma função chamada "dobro" que recebe um número como argumento e retorna 
@@ -331,7 +337,16 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta02 = false
+function dobro(numero2) {
+ return numero2 * 2
+}
+
+dobro()
+let resultado = dobro(254)
+console.log(resultado);
+
+export const resposta02 = dobro
+
 
 /* Questão 3
 Crie uma função chamada "ehPositivo" que recebe um número como argumento e 
@@ -341,7 +356,19 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta03 = false
+function ehPositivo(numero3) {
+if( numero3 >0) {
+return true
+}
+else { 
+return false
+}
+}
+
+console.log(ehPositivo(243))
+console.log(ehPositivo(-65))
+
+export const resposta03 = ehPositivo
 
 /* Questão 4
 Crie uma função chamada "nomeCompleto" que recebe dois argumentos: 
@@ -350,8 +377,14 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function nomeCompleto(primeiroNome, sobrenome) {
+return primeiroNome + ' ' + sobrenome 
+}
 
-export const resposta04 = false
+let nome = nomeCompleto("Manuella", "Siqueira");
+console.log(nome)
+
+export const resposta04 = nomeCompleto
 
 // Lista para as questões 5 a 8
 export const travaLinguas = [
@@ -372,7 +405,12 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta05 = false
+function contarTravaLinguas(travaLinguas) {
+return travaLinguas.length }
+
+console.log(contarTravaLinguas(travaLinguas))
+
+export const resposta05 = contarTravaLinguas
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -383,7 +421,14 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-export const resposta06 = false
+let indice6 = 0;
+
+function obterTravaLingua(indice6) {
+return travaLinguas[indice6] }
+
+console.log(obterTravaLingua(indice6))
+
+export const resposta06 = obterTravaLingua
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -394,6 +439,7 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+
 
 export const resposta07 = false
 
