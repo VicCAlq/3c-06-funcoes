@@ -434,7 +434,7 @@ palavra como argumento e retorna uma lista (array) contendo apenas os
 trava-línguas que possuem aquela palavra. Dica: percorra a lista com 
 um loop while, verifique se cada item inclui a palavra usando o método 
 .includes(), e adicione à nova lista apenas os que atenderem à condição. 
-Envie na resposta a função criada, sem executá-la (basta enviar 
+Envie na resposta a  função criada, sem executá-la (basta enviar 
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
