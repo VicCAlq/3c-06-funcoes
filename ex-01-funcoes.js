@@ -408,7 +408,7 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function contarPalavrasTravaLingua(n){
-return travaLinguas[n].split()
+return travaLinguas[n].split(" ").length
 }
 export const resposta07 = contarPalavrasTravaLingua
 
