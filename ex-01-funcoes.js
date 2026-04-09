@@ -393,8 +393,10 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta06 = false
+function obterTravaLingua(nu){
+  return travaLinguas[nu]
+}
+export const resposta06 = obterTravaLingua
 
 /* Questão 7
 Crie uma função chamada "contarPalavrasTravaLingua" que recebe um 
@@ -405,8 +407,10 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta07 = false
+function contarPalavrasTravaLingua(n){
+return travaLinguas[n].split()
+}
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -418,8 +422,17 @@ Envie na resposta a função criada, sem executá-la (basta enviar
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-
-export const resposta08 = false
+function buscarTravaLinguasComPalavra(palavra) {
+  let indice = 0;
+  const lista = []
+  while (indice < travaLinguas.length){
+if (travaLinguas[indice].includes(palavra)){
+lista.push(travaLinguas[indice])
+}
+indice ++
+  }
+}
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -459,10 +472,6 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function buscarPorNumeroAtomico(elementos, i){
-
-  return 
-}
 export const resposta10 = false
 
 /* Questão 11
