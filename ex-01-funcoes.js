@@ -345,7 +345,7 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function ehPositivo(number){
-  return number >= 0
+  return number > 0
 }
 export const resposta03 = ehPositivo
 
