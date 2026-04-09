@@ -327,7 +327,6 @@ function saudacao() {
  return saudacao;
 }
 
-saudacao()
 export const resposta01 = saudacao
 
 /* Questão 2
@@ -341,10 +340,6 @@ function dobro(numero2) {
  return numero2 * 2
 }
 
-dobro()
-let resultado = dobro(254)
-console.log(resultado);
-
 export const resposta02 = dobro
 
 
@@ -357,16 +352,13 @@ da função sem os parênteses)
 // Escreva o código da solução abaixo:
 
 function ehPositivo(numero3) {
-if( numero3 >0) {
+if( numero3 > 0) {
 return true
 }
 else { 
 return false
 }
 }
-
-console.log(ehPositivo(243))
-console.log(ehPositivo(-65))
 
 export const resposta03 = ehPositivo
 
@@ -377,12 +369,10 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+
 function nomeCompleto(primeiroNome, sobrenome) {
 return primeiroNome + ' ' + sobrenome 
 }
-
-let nome = nomeCompleto("Manuella", "Siqueira");
-console.log(nome)
 
 export const resposta04 = nomeCompleto
 
@@ -406,9 +396,7 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 // Escreva o código da solução abaixo:
 
 function contarTravaLinguas(travaLinguas) {
-return travaLinguas.length }
-
-console.log(contarTravaLinguas(travaLinguas))
+return travaLinguas.length; }
 
 export const resposta05 = contarTravaLinguas
 
@@ -421,12 +409,8 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 
-let indice6 = 0;
-
 function obterTravaLingua(indice6) {
 return travaLinguas[indice6] }
-
-console.log(obterTravaLingua(indice6))
 
 export const resposta06 = obterTravaLingua
 
@@ -440,8 +424,11 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
+function contarPalavrasTravaLingua(indice7) {
+return travaLinguas[indice7].split(" ").length;
+}
 
-export const resposta07 = false
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -454,7 +441,21 @@ o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta08 = false
+function buscarTravaLinguasComPalavra(palavra) {
+  const travaLinguasComPalavra = [];
+  let indice8 = 0;
+  
+  while (indice8 < travaLinguas.length) {
+if( travaLinguas[indice8].includes(palavra))
+{
+  travaLinguasComPalavra.push(travaLinguas[indice8]);
+  }
+  indice8++;
+  }
+return travaLinguasComPalavra 
+}
+
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
@@ -482,7 +483,10 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta09 = false
+function contarElementos(elementos) {
+return elementos.length;
+}
+export const resposta09 = contarElementos
 
 /* Questão 10
 Crie uma função chamada "buscarPorNumeroAtomico" que recebe dois 
@@ -493,7 +497,19 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta10 = false
+function buscarPorNumeroAtomico(elementos, numeroAtomico) {
+  let indice10 = 0;
+  
+  while(indice10 < elementos.length) {
+    if(elementos[indice10].numeroAtomico === numeroAtomico) {
+      return elementos[indice10]
+    }
+    indice10++;
+  }
+  return null;
+}
+
+export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
 Crie uma função chamada "listarNomesElementos" que recebe a lista 
@@ -504,7 +520,20 @@ nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta11 = false
+function listarNomesElementos(elementos) {
+  const nomeElementos11 = []
+  let indice11 = 0;
+  
+  
+  while(indice11 < elementos.length) {
+    nomeElementos11.push(elementos[indice11].nome);
+    
+    indice11++;
+}
+return nomeElementos11;
+}
+
+export const resposta11 = listarNomesElementos
 
 /* Questão 12
 Crie uma função chamada "elementosComNumeroPar" que recebe a lista 
@@ -515,4 +544,18 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-export const resposta12 = false
+function elementosComNumeroPar(elementos) {
+  const elementosPar12 = []
+  let indice12 = 0;
+  
+  while(indice12 < elementos.length) {
+    if (elementos[indice12].numeroAtomico % 2 === 0)
+    {
+    elementosPar12.push(elementos[indice12].nome);
+}
+indice12++;
+}
+return elementosPar12;
+}
+export const resposta12 = elementosComNumeroPar
+
