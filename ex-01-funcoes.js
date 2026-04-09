@@ -345,7 +345,7 @@ da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function ehPositivo(numero2){
-  if (number2 > 0){
+  if (numero2 > 0){
 return true
   }else {
     return false
@@ -384,7 +384,7 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarTravaLinguas (lista){
+function contarTravaLinguas(lista) {
   return lista.lenght 
 }
 export const resposta05 = contarTravaLinguas
@@ -493,7 +493,7 @@ function buscarPorNumeroAtomico(elementos, numeroA) {
     if (elementos[indice].numeroAtomico === numeroA) {
       return lista[indice]
     }
-    indice = indice + 1
+    indice++
   }
 
   return null
@@ -510,11 +510,11 @@ nome da função sem os parênteses)
 // Escreva o código da solução abaixo:
 function listarNomesElementos(elementos) {
   let nomes = []
-  let indice = 0
+  let indice50 = 0
 
-  while (indice < elementos.length) {
-    nomes.push(elementos[indice].nome)
-    indice = indice + 1
+  while (indice50 < elementos.length) {
+    nomes.push(elementos[indice50].nome)
+    indice50++
   }
 
   return nomes
@@ -533,16 +533,16 @@ função sem os parênteses)
 
 function elementosComNumeroPar(elementos) {
   let resultadoPapai = []
-  let indice = 0
+  let indice1 = 0
 
-  while (indice < elementos.length) {
-    if (lista[indice].numeroAtomico % 2 === 0) {
-      resultadoPapai.push(elementos[indice])
+  while (indice1 < elementos.length) {
+    if (lista[indice1].numeroAtomico % 2 === 0) {
+      resultadoPapai.push(elementos[indice1])
     }
-    indice = indice + 1
+    indice1++
   }
 
-  return resultado
+  return resultadoPapai
 }
 
 export const resposta12 = elementosComNumeroPar
