@@ -1,17 +1,17 @@
-Data de atualização: Dia 09/04/2026 às 08:11:07
+Data de atualização: Dia 09/04/2026 às 08:38:41
  
 
 | Aluno | Qtd. questões acertadas (de 9) | Nota total |
 |-------|---------------------------------|------------|
-| Abraão Domingos (Abraao2025) | 0 | 0.00 |
-| Alice Marchi (Alice-Marchi) | 0 | 0.00 |
+| Abraão Domingos (Abraao2025) | 11 | 100.00 |
+| Alice Marchi (Alice-Marchi) | 7 | 82.22 |
 | Alisson Santana (alissondogera) | 0 | 0.00 |
 | Angelo Davy (angelochef) | 0 | 0.00 |
-| Antonio Fernando (antoniodoib) | 0 | 0.00 |
+| Antonio Fernando (antoniodoib) | 12 | 100.00 |
 | Beatriz Carneiro (beatriz-carneiro) | 12 | 100.00 |
 | Calebe Aubertino (calebesilva09) | 0 | 0.00 |
 | Carlos Felipe (felipecunha1227) | 0 | 0.00 |
-| Cauã Juan (tiu10ney) | 0 | 0.00 |
+| Cauã Juan (tiu10ney) | 11 | 100.00 |
 | Daniela Alves (dody-rawenx) | 0 | 0.00 |
 | Elyson França (dollynhoVencido) | 0 | 0.00 |
 | Everton Rodrigues (Evertonmts) | 0 | 0.00 |
@@ -27,17 +27,17 @@ Data de atualização: Dia 09/04/2026 às 08:11:07
 | Kauã Santos (kauasantos-commits) | 0 | 0.00 |
 | Laura Elizabete (llaurapx) | 11 | 100.00 |
 | Leonardo Aragão (lynkpoRK24) | 4 | 48.89 |
-| Lucas Carson (lucas4c3r0l4) | 0 | 0.00 |
+| Lucas Carson (lucas4c3r0l4) | 5 | 60.00 |
 | Lucas Renato (Yggdrasil-Lrss) | 12 | 100.00 |
-| Luiz Gustavo Simões (luiz-simoes-nave) | 0 | 0.00 |
-| Manuella Siqueira (manuusiq24) | 10 | 100.00 |
+| Luiz Gustavo Simões (luiz-simoes-nave) | 11 | 100.00 |
+| Manuella Siqueira (manuusiq24) | 12 | 100.00 |
 | Manuella Siqueira (manyusiq) | 0 | 0.00 |
-| Maria Eloiza (elomorais2) | 0 | 0.00 |
+| Maria Eloiza (elomorais2) | 7 | 82.22 |
 | Maria Luisa (luhllu08) | 0 | 0.00 |
-| Pablo Alves (pabloalves1230) | 9 | 100.00 |
+| Pablo Alves (pabloalves1230) | 11 | 100.00 |
 | Pedro Renan (RenanOruim01) | 12 | 100.00 |
 | Rayane Fabiane (rayRayanjoS) | 11 | 100.00 |
 | Samara Pessoa (marapessoa06) | 0 | 0.00 |
-| Samuel Guilherme (samuel-ete) | 0 | 0.00 |
+| Samuel Guilherme (samuel-ete) | 9 | 100.00 |
 | Thais Tavares (thaissilva-tech) | 11 | 100.00 |
-| Williane Vitoria (willyv00) | 0 | 0.00 |
+| Williane Vitoria (willyv00) | 11 | 100.00 |
