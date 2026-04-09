@@ -385,9 +385,12 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 */
 // Escreva o código da solução abaixo:
 function contarTravaLinguas(lista) {
-  return lista.lenght 
+  return lista.length
 }
+
+
 export const resposta05 = contarTravaLinguas
+
 
 /* Questão 6
 Crie uma função chamada "obterTravaLingua" que recebe um número como 
@@ -486,18 +489,21 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 
-function buscarPorNumeroAtomico(elementos, numeroA) {
-  let indice = 0
+function buscarPorNumeroAtomico(lista, numero) {
+  let ind3 = 0
 
-  while (indice < elementos.length) {
-    if (elementos[indice].numeroAtomico === numeroA) {
-      return lista[indice]
+
+  while (ind3 < lista.length) {
+    if (lista[ind3].numeroAtomico === numero) {
+      return lista[ind3]
     }
-    indice++
+    ind3++
   }
+
 
   return null
 }
+
 export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
