@@ -322,7 +322,7 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function saudacao(){
-  return "bom dia";
+  return "Bom dia!"
 }
 export const resposta01 = saudacao
 
@@ -332,9 +332,10 @@ o dobro desse número. Envie na resposta a função criada, sem executá-la (bas
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function dobro(X){
-  return "X"*2
-}
+function dobro(dois){
+  return dois * 2
+} 
+
 export const resposta02 = dobro
 
 /* Questão 3
@@ -344,12 +345,15 @@ Envie na resposta a função criada, sem executá-la (basta enviar o nome
 da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function ehPositivo(N){
-  if(N>0)
+function ehPositivo(numero){
+  if(numero >= 0){
     return true
-  else if(N<0)
-  return false
+  }
+  if(numero < 0){
+    return false
+  }
 }
+
 export const resposta03 = ehPositivo
 
 /* Questão 4
@@ -359,9 +363,10 @@ um espaço. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function nomeCompleto(primeiroNome,sobrenome){
-  return "nome Completo"
+function nomeCompleto(primeiroNome, sobrenome){
+  return primeiroNome + " " + sobrenome
 }
+
 export const resposta04 = nomeCompleto
 
 // Lista para as questões 5 a 8
@@ -382,10 +387,14 @@ propriedade .length). Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarTravaLinguas(lista_de_trava_linguas){
-(travaLinguas.length)
-return 7;
+function contarTravaLinguas(travaLinguas){
+  let quantidadeDeTrava
+  for(let i = 0; i < travaLinguas.length; i++){
+    quantidadeDeTrava = i + 1
+  }
+  return quantidadeDeTrava
 }
+
 export const resposta05 = contarTravaLinguas
 
 /* Questão 6
@@ -396,9 +405,10 @@ está no índice 0. Envie na resposta a função criada, sem executá-la
 (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function obterTravaLingua(I){
-return "o rato roeu a rota do rei de roma"
+function obterTravaLingua(indice){
+  return travaLinguas[indice]
 }
+
 export const resposta06 = obterTravaLingua
 
 /* Questão 7
@@ -410,10 +420,13 @@ Este método retorna uma lista. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarPalavrasTravaLingua(II){
-
+function contarPalavrasTravaLingua(aa){
+    let v = travaLinguas[aa].split(" ").length
+    return v
+  
 }
-export const resposta07 = false
+
+export const resposta07 = contarPalavrasTravaLingua
 
 /* Questão 8
 Crie uma função chamada "buscarTravaLinguasComPalavra" que recebe uma 
@@ -421,17 +434,27 @@ palavra como argumento e retorna uma lista (array) contendo apenas os
 trava-línguas que possuem aquela palavra. Dica: percorra a lista com 
 um loop while, verifique se cada item inclui a palavra usando o método 
 .includes(), e adicione à nova lista apenas os que atenderem à condição. 
-Envie na resposta a função criada, sem executá-la (basta enviar 
+Envie na resposta a  função criada, sem executá-la (basta enviar 
 o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
+function buscarTravaLinguasComPalavra(palavra){
+  let novaL = []
+  for(let q = 0; q < travaLinguas.length; q++){
+    if(travaLinguas[q].includes(palavra)){
+      novaL.push(travaLinguas[q])
 
-export const resposta08 = false
+    }
+  }
+  return novaL
+}
+
+export const resposta08 = buscarTravaLinguasComPalavra
 
 // Lista para as questões 9 a 12
 export const elementos = [
-{ nome: "Hidrogênio", numeroAtomico: 1 },
-  { nome  : "Hélio", numeroAtomico: 2 },
+  { nome: "Hidrogênio", numeroAtomico: 1 },
+  { nome: "Hélio", numeroAtomico: 2 },
   { nome: "Lítio", numeroAtomico: 3 },
   { nome: "Berílio", numeroAtomico: 4 },
   { nome: "Boro", numeroAtomico: 5 },
@@ -453,8 +476,8 @@ lista. Envie na resposta a função criada, sem executá-la (basta
 enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function contarElementos(listaelementos){
-  return 14;
+function contarElementos(elementos){
+  return elementos.length
 }
 export const resposta09 = contarElementos
 
@@ -466,10 +489,17 @@ ou null se não encontrar. Envie na resposta a função criada, sem
 executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
-function buscarPorNumeroAtomico(lista_eleementos,numeroAtomico){
-  if(numeroAtomico=1)
-    return "Hidrogênio";
+function buscarPorNumeroAtomico(elementos, numeroAtomico){
+  for(let z = 0; z < elementos.length; z++){
+    if(elementos[z].numeroAtomico === numeroAtomico){
+      return elementos[z]
+    }
+  else{
+    return null
+  }
 }
+}
+
 export const resposta10 = buscarPorNumeroAtomico
 
 /* Questão 11
@@ -481,21 +511,13 @@ nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function listarNomesElementos(elementos){
-  return { nome: "Hidrogênio", numeroAtomico: 1 },
-   "Hélio",
-    "Lítio", 
-   "Berílio",
-   "Boro", 
-    "Carbono",
-   "Nitrogênio",
-    "Oxigênio",
-    "Flúor",
-    "Neônio", 
-    "Sódio", 
-   "Magnésio",  
-    "Alumínio", 
-    "Silício" 
+  let kaiser = []
+  for(let ness = 0; ness < elementos.length; ness++){
+    kaiser.push(elementos[ness].nome)
+  }
+  return kaiser
 }
+
 export const resposta11 = listarNomesElementos
 
 /* Questão 12
@@ -507,13 +529,12 @@ função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function elementosComNumeroPar(elementos){
- return 
- [ { nome  : "Hélio", numeroAtomico: 2 },
-  { nome: "Berílio", numeroAtomico: 4 },
-  { nome: "Carbono", numeroAtomico: 6 },
-  { nome: "Oxigênio", numeroAtomico: 8 },
-  { nome: "Neônio", numeroAtomico: 10 },
-  { nome: "Magnésio", numeroAtomico: 12 },
-  { nome: "Silício", numeroAtomico: 14 },]
+  let yuta = []
+  for(let rika = 0; rika < elementos.length; rika++ ){
+    if(elementos[rika].numeroAtomico % 2 === 0){
+      yuta.push(elementos[rika])
+    }
+  }
+  return yuta
 }
 export const resposta12 = elementosComNumeroPar
