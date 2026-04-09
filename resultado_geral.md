@@ -1,4 +1,4 @@
-Data de atualização: Dia 08/04/2026 às 14:53:21
+Data de atualização: Dia 09/04/2026 às 01:48:36
  
 
 | Aluno | Qtd. questões acertadas (de 9) | Nota total |
@@ -18,7 +18,7 @@ Data de atualização: Dia 08/04/2026 às 14:53:21
 | Fernanda Vanuty (vanuty-7) | 0 | 0.00 |
 | Gabriel Henrique (gabrielomailoko16) | 0 | 0.00 |
 | Guilherme Moura (guilherme-moura-gui7x) | 0 | 0.00 |
-| Gustavo Gomes (Gustapogomes) | 3 | 33.33 |
+| Gustavo Gomes (Gustapogomes) | 0 | 0.00 |
 | Helena Evelyn (lerolens) | 0 | 0.00 |
 | Izabella Cristine (CHRIS1SD3AD) | 0 | 0.00 |
 | João Eduardo (edu-mourazx) | 0 | 0.00 |
@@ -26,7 +26,7 @@ Data de atualização: Dia 08/04/2026 às 14:53:21
 | José Guilherme Calazans (calazansomestre) | 0 | 0.00 |
 | Kauã Santos (kauasantos-commits) | 0 | 0.00 |
 | Laura Elizabete (llaurapx) | 0 | 0.00 |
-| Leonardo Aragão (lynkpoRK24) | 0 | 0.00 |
+| Leonardo Aragão (lynkpoRK24) | 4 | 48.89 |
 | Lucas Carson (lucas4c3r0l4) | 0 | 0.00 |
 | Lucas Renato (Yggdrasil-Lrss) | 12 | 100.00 |
 | Luiz Gustavo Simões (luiz-simoes-nave) | 0 | 0.00 |
