@@ -477,10 +477,7 @@ enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function contarElementos(elementos){
-  for(let ma = 0; ma < elementos.length; ma++){
-
-  }
-  return ma - 1
+  return elementos.length
 }
 export const resposta09 = contarElementos
 
@@ -493,9 +490,10 @@ executá-la (basta enviar o nome da função sem os parênteses)
 */
 // Escreva o código da solução abaixo:
 function buscarPorNumeroAtomico(elementos, numeroAtomico){
-  if(elementos[numeroAtomico].includes(numeroAtomico)){
-    return elementos[numeroAtomico]
-  }
+  for(let z = 0; z < elementos.length; z++){
+    if(elementos[z].numeroAtomico === numeroAtomico){
+      return elementos[z]
+    }
   else{
     return null
   }
@@ -514,7 +512,7 @@ nome da função sem os parênteses)
 function listarNomesElementos(elementos){
   let kaiser = []
   for(let ness = 0; ness < elementos.length; ness++){
-    kaiser.push(elementos[ness].split(" ")[1])
+    kaiser.push(elementos[ness].nome)
   }
   return kaiser
 }
@@ -532,7 +530,7 @@ função sem os parênteses)
 function elementosComNumeroPar(elementos){
   let yuta = []
   for(let rika = 0; rika < elementos.length; rika++ ){
-    if(elementos[rika].split(" ")[3] % 2 === 0){
+    if(elementos[rika].numeroAtomico % 2 === 0){
       yuta.push(elementos[rika])
     }
   }
