@@ -1,9 +1,9 @@
-Data de atualização: Dia 09/04/2026 às 08:10:14
+Data de atualização: Dia 09/04/2026 às 08:37:49
  
 
 | Questão | Exercício | Entregue | Correto | Mensagem de Erro |
 |---------|-----------|----------|---------|------------------|
-|  1 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [Function saudacao] to deeply equal 'Bom dia!' |
+|  1 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  2 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  3 | Ex 01 | ✅ | ✅ | Nenhum erro |
 |  4 | Ex 01 | ✅ | ✅ | Nenhum erro |
@@ -14,4 +14,4 @@ Data de atualização: Dia 09/04/2026 às 08:10:14
 |  9 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 10 | Ex 01 | ✅ | ✅ | Nenhum erro |
 | 11 | Ex 01 | ✅ | ✅ | Nenhum erro |
-| 12 | Ex 01 | ✅ | ❌ | AssertionError: Resposta Incorreta: expected [ 'Hélio', 'Berílio', 'Carbono', …(4) ] to deeply equal [ { nome: 'Hélio', …(1) }, …(6) ] |
+| 12 | Ex 01 | ✅ | ✅ | Nenhum erro |
