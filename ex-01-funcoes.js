@@ -498,6 +498,7 @@ function buscarPorNumeroAtomico(elementos, numeroAtomico){
     return null
   }
 }
+}
 
 export const resposta10 = buscarPorNumeroAtomico
 
