@@ -1,10 +1,10 @@
-Data de atualização: Dia 09/04/2026 às 08:38:41
+Data de atualização: Dia 09/04/2026 às 21:23:00
  
 
 | Aluno | Qtd. questões acertadas (de 9) | Nota total |
 |-------|---------------------------------|------------|
 | Abraão Domingos (Abraao2025) | 11 | 100.00 |
-| Alice Marchi (Alice-Marchi) | 7 | 82.22 |
+| Alice Marchi (Alice-Marchi) | 8 | 91.11 |
 | Alisson Santana (alissondogera) | 0 | 0.00 |
 | Angelo Davy (angelochef) | 0 | 0.00 |
 | Antonio Fernando (antoniodoib) | 12 | 100.00 |
@@ -20,20 +20,20 @@ Data de atualização: Dia 09/04/2026 às 08:38:41
 | Guilherme Moura (guilherme-moura-gui7x) | 0 | 0.00 |
 | Gustavo Gomes (Gustapogomes) | 11 | 100.00 |
 | Helena Evelyn (lerolens) | 11 | 100.00 |
-| Izabella Cristine (CHRIS1SD3AD) | 0 | 0.00 |
+| Izabella Cristine (CHRIS1SD3AD) | 10 | 100.00 |
 | João Eduardo (edu-mourazx) | 0 | 0.00 |
 | João Pedro (JonhPerter07) | 0 | 0.00 |
 | José Guilherme Calazans (calazansomestre) | 0 | 0.00 |
 | Kauã Santos (kauasantos-commits) | 0 | 0.00 |
 | Laura Elizabete (llaurapx) | 11 | 100.00 |
-| Leonardo Aragão (lynkpoRK24) | 4 | 48.89 |
+| Leonardo Aragão (lynkpoRK24) | 11 | 100.00 |
 | Lucas Carson (lucas4c3r0l4) | 5 | 60.00 |
 | Lucas Renato (Yggdrasil-Lrss) | 12 | 100.00 |
 | Luiz Gustavo Simões (luiz-simoes-nave) | 11 | 100.00 |
 | Manuella Siqueira (manuusiq24) | 12 | 100.00 |
 | Manuella Siqueira (manyusiq) | 0 | 0.00 |
 | Maria Eloiza (elomorais2) | 7 | 82.22 |
-| Maria Luisa (luhllu08) | 0 | 0.00 |
+| Maria Luisa (luhllu08) | 7 | 82.22 |
 | Pablo Alves (pabloalves1230) | 11 | 100.00 |
 | Pedro Renan (RenanOruim01) | 12 | 100.00 |
 | Rayane Fabiane (rayRayanjoS) | 11 | 100.00 |
