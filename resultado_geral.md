@@ -1,4 +1,4 @@
-Data de atualização: Dia 09/04/2026 às 21:23:00
+Data de atualização: Dia 13/04/2026 às 00:22:26
  
 
 | Aluno | Qtd. questões acertadas (de 9) | Nota total |
@@ -17,7 +17,7 @@ Data de atualização: Dia 09/04/2026 às 21:23:00
 | Everton Rodrigues (Evertonmts) | 0 | 0.00 |
 | Fernanda Vanuty (vanuty-7) | 11 | 100.00 |
 | Gabriel Henrique (gabrielomailoko16) | 0 | 0.00 |
-| Guilherme Moura (guilherme-moura-gui7x) | 0 | 0.00 |
+| Guilherme Moura (guilherme-moura-gui7x) | 10 | 100.00 |
 | Gustavo Gomes (Gustapogomes) | 11 | 100.00 |
 | Helena Evelyn (lerolens) | 11 | 100.00 |
 | Izabella Cristine (CHRIS1SD3AD) | 10 | 100.00 |
